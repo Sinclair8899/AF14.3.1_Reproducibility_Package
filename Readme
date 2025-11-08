@@ -1,0 +1,38 @@
+# 🧬 AF14.3.1 Publication Integrated Full Package
+
+**DOI:** [10.5281/zenodo.17559360](https://doi.org/10.5281/zenodo.17559360)  
+**Author:** Po-Sung (Sinclair) Huang  
+**License:** CC-BY-4.0
+
+---
+
+## 📘 Overview
+This repository contains the reproducible workflow for the publication **AF14.3.1: Integrated Structure Modeling and Energy Minimization**.  
+It includes Google Colab notebooks, test results, plots, and Zenodo metadata for reproducibility validation.
+
+---
+
+## 📂 Contents
+- `AF14.3.1_Reproducibility_TestSuite.ipynb` — Full Colab workflow with PDBFixer + OpenMM  
+- `fixed_1CRN.pdb` — Corrected sample structure  
+- `energy_plot.png` — Energy change visualization  
+- `modeling_report.pdf` — Auto-generated report  
+- `zenodo_metadata.json` — Metadata for Zenodo upload  
+
+---
+
+## 🔗 Citation
+If you use this work, please cite it as:
+> Huang, P-S. (2025). *AF14.3.1 Publication Integrated Full Package.* Zenodo.  
+> DOI: [10.5281/zenodo.17559360](https://doi.org/10.5281/zenodo.17559360)
+
+---
+
+## ⚙️ Environment
+- Google Colab / Python 3.12  
+- PDBFixer / OpenMM / ReportLab  
+- Tested with GPU runtime enabled
+
+---
+
+![Zenodo + Colab Badge](A_flat_digital_graphic_design_digital_illustration.png)
