@@ -1,38 +1,90 @@
 ![Zenodo + Colab Badge](A_flat_digital_graphic_design_digital_illustration.png)
-# 🧬 AF14.3.1 Publication Integrated Full Package
 
-**DOI:** [10.5281/zenodo.17559360](https://doi.org/10.5281/zenodo.17559360)  
-**Author:** Po-Sung (Sinclair) Huang  
-**License:** CC-BY-4.0
+# 🧬 AF14.3.1 Publication Integrated Full Package  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17559360.svg)](https://doi.org/10.5281/zenodo.17559360)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sinclair8899/AF14.3.1_Reproducibility_Package/blob/main/AF14.3.1_Reproducibility_TestSuite.ipynb)
+
+---
+
+### **Author:** Po-Sung (Sinclair) Huang  
+**Affiliation:** Special Advisor, Continental Carbon | EDBA (HEC Liège)  
+**License:** [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)  
+**DOI:** [10.5281/zenodo.17559360](https://doi.org/10.5281/zenodo.17559360)
 
 ---
 
 ## 📘 Overview
-This repository contains the reproducible workflow for the publication **AF14.3.1: Integrated Structure Modeling and Energy Minimization**.  
-It includes Google Colab notebooks, test results, plots, and Zenodo metadata for reproducibility validation.
+This repository provides the reproducibility package for the publication  
+**“AF14.3.1: Integrated Structure Modeling and Energy Minimization.”**  
+It includes all Colab workflows, computational results, plots, and Zenodo metadata for full reproducibility validation.
 
 ---
 
 ## 📂 Contents
-- `AF14.3.1_Reproducibility_TestSuite.ipynb` — Full Colab workflow with PDBFixer + OpenMM  
-- `fixed_1CRN.pdb` — Corrected sample structure  
-- `energy_plot.png` — Energy change visualization  
-- `modeling_report.pdf` — Auto-generated report  
-- `zenodo_metadata.json` — Metadata for Zenodo upload  
 
----
-
-## 🔗 Citation
-If you use this work, please cite it as:
-> Huang, P-S. (2025). *AF14.3.1 Publication Integrated Full Package.* Zenodo.  
-> DOI: [10.5281/zenodo.17559360](https://doi.org/10.5281/zenodo.17559360)
+| File | Description |
+|------|--------------|
+| `AF14.3.1_Reproducibility_TestSuite.ipynb` | Full Colab workflow integrating **PDBFixer + OpenMM** |
+| `fixed_1CRN.pdb` | Corrected protein structure for test case |
+| `energy_plot.png` | Energy change visualization after minimization |
+| `modeling_report.pdf` | Auto-generated reproducibility report |
+| `zenodo_metadata.json` | Zenodo metadata record for upload verification |
 
 ---
 
 ## ⚙️ Environment
-- Google Colab / Python 3.12  
-- PDBFixer / OpenMM / ReportLab  
-- Tested with GPU runtime enabled
+- **Platform:** Google Colab (GPU runtime)
+- **Language:** Python 3.12  
+- **Libraries:** PDBFixer, OpenMM, ReportLab, Matplotlib  
+- **Dependencies:** Installed automatically within notebook  
+- **Validation:** Energy minimization confirmed with output report  
+
+---
+
+## 🔗 Citation
+
+If you use this work, please cite as follows:
+
+> Huang, P.-S. (Sinclair). (2025).  
+> *AF14.3.1 Publication Integrated Full Package.* Zenodo.  
+> DOI: [10.5281/zenodo.17559360](https://doi.org/10.5281/zenodo.17559360)
+
+---
+
+## 🚀 Usage
+
+1. Open the reproducibility notebook directly in Colab:  
+   [▶ Launch in Google Colab](https://colab.research.google.com/github/Sinclair8899/AF14.3.1_Reproducibility_Package/blob/main/AF14.3.1_Reproducibility_TestSuite.ipynb)
+
+2. Run all cells to reproduce:
+   - Protein structure correction (`PDBFixer`)
+   - Force-field energy minimization (`OpenMM`)
+   - Auto PDF generation (`ReportLab`)
+   - Energy visualization (`Matplotlib`)
+
+3. Results:
+   - `fixed_1CRN.pdb` : cleaned protein file  
+   - `energy_plot.png` : energy trajectory visualization  
+   - `modeling_report.pdf` : reproducibility summary report  
+
+---
+
+## 🧾 License & Reuse
+This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.  
+You are free to share, remix, and build upon this work for any purpose, provided proper attribution is given.  
+© 2025 Po-Sung (Sinclair) Huang.
+
+---
+
+## 🌐 Links
+- 🔗 **Zenodo record:** [https://doi.org/10.5281/zenodo.17559360](https://doi.org/10.5281/zenodo.17559360)  
+- 💻 **GitHub repository:** [https://github.com/Sinclair8899/AF14.3.1_Reproducibility_Package](https://github.com/Sinclair8899/AF14.3.1_Reproducibility_Package)
+- 🧪 **Google Colab notebook:** [Open Test Suite](https://colab.research.google.com/github/Sinclair8899/AF14.3.1_Reproducibility_Package/blob/main/AF14.3.1_Reproducibility_TestSuite.ipynb)
+
+---
+
+### 🪶 Acknowledgment
+This work forms part of the author’s integrated reproducibility validation framework for AI-driven scientific modeling, conducted as part of the **EDBA research initiative (HEC Liège)**.
 
 ---
 
