@@ -87,4 +87,21 @@ You are free to share, remix, and build upon this work for any purpose, provided
 This work forms part of the author’s integrated reproducibility validation framework for AI-driven scientific modeling, conducted as part of the **EDBA research initiative (HEC Liège)**.
 
 ---
+---
 
+## 📘 Citation and Access
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17559360.svg)](https://doi.org/10.5281/zenodo.17559360)
+
+If you use or reference this reproducibility package, please cite as:
+
+> Huang, P.-S. (2025). *AF14.3.1 Publication Integrated Full Package* (v1.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.17559360  
+
+This repository includes:
+- Jupyter Notebook (`.ipynb`) for full workflow reproducibility  
+- Energy minimization and validation reports (`.pdf`)  
+- Processed structure and PDB files  
+- Test suite and benchmark results (`.zip`)  
+
+**License:** CC-BY-4.0 — Free to use and adapt with credit.  
+**DOI issued:** November 2025 (Version 1.0, Zenodo Record 17559360)
